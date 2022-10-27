@@ -1,0 +1,52 @@
+*{ /* DEFAULT */
+    padding: 0px;
+    margin: 0px;
+    font-family:Verdana;
+}
+
+.container{ /* CAJA DE ABAJO */
+    padding: 0px;
+    margin: auto;
+
+    width: 600px;
+    height: 600px;
+
+    background-color: #7b0199;
+    border: 8px solid #140054;
+
+    border-radius: 10px;
+    border-Top-left-radius: 0px;
+    border-Top-right-radius: 0px;
+
+}
+ 
+#player{ /* CIRCULO */
+    width: 60px;  /* cambair tamano para dificultad */
+    height: 60px;
+
+    background-color: red;
+    border: 5px dashed rgb(44, 8, 20);
+
+    border-radius: 40px;
+    position: absolute;
+    transition: all 0.2s;
+}
+
+.pointer{ /* CAJA DE ARRIBA */
+    background-color: #024543;
+    border: 8px solid #140054;
+    color: #05c4b4;
+
+    border-bottom: 0px;
+
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+
+    margin-top: 30px;
+    padding: 10px 0px;
+
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
