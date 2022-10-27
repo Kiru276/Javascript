@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans';
+}
+
+.dificultyBotton{
+    width: 200px;
+    height: 100px;
+
+    background-color: #0ce80c;
+    color: black;
+
+    border: 20px solid black;
+    border-radius: 5px;
+
+    margin: 50px;
+    padding: 20px;
+
+    font-size: 30px;
+    text-align: center;
+}

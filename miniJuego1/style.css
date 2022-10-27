@@ -21,7 +21,7 @@
 }
  
 #player{ /* CIRCULO */
-    width: 60px;  /* cambair tamano para dificultad */
+    width: 60px;  /* cambiar tamano para dificultad */
     height: 60px;
 
     background-color: red;
