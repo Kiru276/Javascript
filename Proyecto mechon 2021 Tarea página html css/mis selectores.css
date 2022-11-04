@@ -1,0 +1,172 @@
+body{background-color:rgb(5, 171, 177);}
+a:link{color:black;
+text-decoration: none;
+opacity:0.6;
+transition:0.3s;}
+a:visited{color:brown;
+text-decoration: none;
+opacity:0.6;
+transition:0.3s;}
+a:hover{color:red;}
+a:active{color:orange;}
+h2{font-size: 19px;}
+.fila1{display: flex;}
+.columna1{
+    flex: 50%;
+    text-align: center;
+    padding: 3px;
+    margin: 3px; ;
+    color:black;
+    background-color: rgb(129, 138, 2);
+    display: inline-block;
+    border-style: solid;
+    border-color:rgb(160, 6, 6);
+    border-radius: 20px 20px 20px 20px; 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-weight: bold; 
+    position: relative;
+    left:28%;
+}
+.columna2{
+    flex: 50%;
+    text-align: left;
+    padding: 5px;
+    margin: 20px;
+    color:white;
+    background-color: rgb(2, 146, 79);
+    display: inline-block;
+    border-style: solid;
+    border-color:wheat;
+    border-radius: 35px 35px 35px 35px; 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold; 
+    position: relative;
+}
+
+.columna3{
+    flex: 50%;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+    color:white;
+    background-color: rgb(2, 146, 79);
+    display: inline-block;
+    border-style: solid;
+    border-color:wheat;
+    border-radius: 35px 35px 35px 35px; 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-weight: bold; 
+    position: relative;
+    top: 30px;
+    left: 140px;
+}
+.columna4{
+    flex: 50%;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    color:white;
+    background-color: rgb(2, 146, 79);
+    display: inline-block;
+    border-style: solid;
+    border-color:wheat;
+    border-radius: 35px 0px 35px 0px; 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold;
+    position: relative;
+    left:1030px;
+    bottom:350px; 
+}
+.columna5{
+    flex: 50%;
+    text-align: left;
+    padding: 5px;
+    margin: 20px;
+    color:white;
+    background-color: rgb(2, 146, 79);
+    display: inline-block;
+    border-style: solid;
+    border-color:wheat;
+    border-radius: 20px 20px 20px 20px; 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 680px;
+    left: 310px;  
+    text-align: center;
+}
+.n2{
+    font-size: 20px;
+}
+.columna6{
+    flex: 50%;
+    text-align: left;
+    padding: 5px;
+    margin: 20px;
+    color:white;
+    background-color: rgb(2, 146, 79);
+    display: inline-block;
+    border-style: solid;
+    border-color:wheat;
+    border-radius: 35px 35px 35px 35px; 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom:720px;
+}
+.columna7{
+    flex: 50%;
+    text-align: left;
+    padding: 5px;
+    margin: 20px;
+    color:white;
+    background-color: rgb(2, 146, 79);
+    display: inline-block;
+    border-style: solid;
+    border-color:wheat;
+    border-radius: 35px 35px 35px 35px; 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 815px;
+    
+}
+.columna8{
+    flex: 50%;
+    text-align: left;
+    padding: 5px;
+    margin: 20px;
+    color:white;
+    background-color: rgb(2, 146, 79);
+    display: inline-block;
+    border-style: solid;
+    border-color:wheat;
+    border-radius: 35px 35px 35px 35px; 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom:700px;
+}
+.f1{
+    text-align: center;
+}
+.f2{
+    text-align: center;
+}
+.encu{
+    text-align: center;
+    color:black;
+    background-color:rgb(241, 238, 8);
+    border: 5px solid green;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    position: relative;
+    bottom: 650px;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
