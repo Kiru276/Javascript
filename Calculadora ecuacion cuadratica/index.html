@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Ecuacion Cuadratica</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="calculo.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA ECUACIÓN CUADRATICA</h1>
+    </header>
+    <section>
+        <p>Recuerde que los valores tienen que estar como:</p>
+        <img src="img/formula .png" width="200"/>
+    </section>
+    <section>
+        <form action="" method="dialog">
+            <span>
+                <input type="text" class="inputs" id="valorA" placeholder="ingrese valor de A">
+                <input type="text" class="inputs" id="valorB" placeholder="ingrese valor de B">
+                <input type="text" class="inputs" id="valorC" placeholder="ingrese valor de C">
+            </span>
+
+            <div>
+                <input type="submit" value="Calcular" id="botonCalcular" onclick=calculo()>
+                <p id="resultado"></p>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Programa hecho el 26/11/2022</p>
+        <a href="https://github.com/Kiru276">¿QUIÉN SOY?</p>
+    </footer>
+</body>
+</html>
